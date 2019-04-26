@@ -1,6 +1,9 @@
 # DenverSW500CWFP
 A little program that allows people with the Denver SW500 smartwatch to install custom watchfaces
 <br>
+<b>THIS PROJECT IS IN NO WAY AFILIATED WITH DENVOR ELECTRONICS A/S</b>
+<br>
+I am waiting for there response :p
 <b>Credits</b>
 <br>
 Smashicons - "Error" - Used for the exit button
