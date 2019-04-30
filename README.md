@@ -4,6 +4,9 @@ A little program that allows people with the Denver SW500 smartwatch to install 
 <b>THIS PROJECT IS IN NO WAY AFILIATED WITH DENVOR ELECTRONICS A/S</b>
 <br>
 I am waiting for there response :p
+<br>
+<b>THE PROGRAM FOLDER THINGY CAN NOT BE PLACED IN A PATH WITH SPACES.</b>
+<b>IT WILL BREAK THE PROGRAM</b>
 <b>Credits</b>
 <br>
 Smashicons - "Error" - Used for the exit button
