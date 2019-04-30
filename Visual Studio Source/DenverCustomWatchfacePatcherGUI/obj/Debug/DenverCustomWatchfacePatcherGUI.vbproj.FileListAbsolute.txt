@@ -1,0 +1,34 @@
+C:\Users\tsjpl\AppData\Local\Temporary Projects\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.vbprojAssemblyReference.cache
+C:\Users\tsjpl\AppData\Local\Temporary Projects\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.Form1.resources
+C:\Users\tsjpl\AppData\Local\Temporary Projects\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.Resources.resources
+C:\Users\tsjpl\AppData\Local\Temporary Projects\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.vbproj.GenerateResource.cache
+C:\Users\tsjpl\AppData\Local\Temporary Projects\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.vbproj.CoreCompileInputs.cache
+C:\Users\tsjpl\AppData\Local\Temporary Projects\DenverCustomWatchfacePatcherGUI\bin\Debug\DenverCustomWatchfacePatcherGUI.exe.config
+C:\Users\tsjpl\AppData\Local\Temporary Projects\DenverCustomWatchfacePatcherGUI\bin\Debug\DenverCustomWatchfacePatcherGUI.exe
+C:\Users\tsjpl\AppData\Local\Temporary Projects\DenverCustomWatchfacePatcherGUI\bin\Debug\DenverCustomWatchfacePatcherGUI.pdb
+C:\Users\tsjpl\AppData\Local\Temporary Projects\DenverCustomWatchfacePatcherGUI\bin\Debug\DenverCustomWatchfacePatcherGUI.xml
+C:\Users\tsjpl\AppData\Local\Temporary Projects\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.exe
+C:\Users\tsjpl\AppData\Local\Temporary Projects\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.xml
+C:\Users\tsjpl\AppData\Local\Temporary Projects\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.pdb
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\bin\Debug\DenverCustomWatchfacePatcherGUI.exe.config
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\bin\Debug\DenverCustomWatchfacePatcherGUI.exe
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\bin\Debug\DenverCustomWatchfacePatcherGUI.pdb
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\bin\Debug\DenverCustomWatchfacePatcherGUI.xml
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.vbprojAssemblyReference.cache
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.form1.resources
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.Resources.resources
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.vbproj.GenerateResource.cache
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.vbproj.CoreCompileInputs.cache
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.vbproj.CopyComplete
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.exe
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.xml
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.pdb
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.Progress.resources
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.Start.resources
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.Step2.resources
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.Step3.resources
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.Step4.resources
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.Step5.resources
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.Debug.resources
