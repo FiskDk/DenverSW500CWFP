@@ -7,6 +7,7 @@ I am waiting for there response :p
 <br>
 <b>THE PROGRAM FOLDER THINGY CAN NOT BE PLACED IN A PATH WITH SPACES.</b>
 <b>IT WILL BREAK THE PROGRAM</b>
+<br>
 <b>Credits</b>
 <br>
 Smashicons - "Error" - Used for the exit button
