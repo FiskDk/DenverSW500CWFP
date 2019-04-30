@@ -51,9 +51,9 @@ exit
 quit
 exit
 :allok
-set wsp=C:\Users\tsjpl\Documents\Denver_SW500_Custom_Watchface_Patcher\Workspace
+set wsp=%cd%\Workspace
 set wfp=Workspace\Fresh\assets\watchface\
-wget --output-document=Workspace\fresh.apk http://ge.tt/8Rp35mv2
+wget --output-document=Workspace\fresh.apk http://download1590.mediafire.com/k9kfnbuueerg/jebaw2ckkrhrxg8/Denver+SW500.apk
 7za x Workspace\fresh.apk -oWorkspace\Fresh
 copy /Y %img1% Workspace\Fresh\assets\watchface\clockrendering0.png
 copy /Y %img2% %wfp%colockbackground0.png
@@ -64,17 +64,12 @@ echo Done, Patching up...
 7za.exe a Workspace\unsigned.zip .\Workspace\Fresh\*
 ren Workspace\unsigned.zip unsigned.apk
 set mypath=%~dp0
-set apkpath=C:\Users\tsjpl\Documents\Denver_Custom_Watchface_Patcher\Workspace\unsigned.apk
-set keystorepath=C:\Users\tsjpl\Documents\Denver_Custom_Watchface_Patcher\Workspace\customwatchfacepatcher.keystore
+set rootpath=%cd%
+set apkpath=%wsp%\unsigned.apk
+set keystorepath=%wsp%\com.denver.customwatchfacepatcher.keystore
+set /p javapath=<java.path
 set alias=com.denver.customwatchfacepatcher
 
-REM !!!REPLACE THIS PATH WITH THE PATH TO YOUR JARSIGNER!!!
-cd C:\Program Files (x86)\Java\jdk1.8.0_192\bin
-jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore %keystorepath% %apkpath% %alias%
-
-REM !!!REPLACE THIS PATH WITH THE PATH TO YOUR ZIPALIGN TOOL!!!
-cd C:\Users\tsjpl\AppData\Local\Android\Sdk\build-tools\28.0.3
-zipalign -v 4 %apkpath% %wsp%\%alias%-signed.apk
-Echo Done. Now you just need to install the apk. or click enter to install it automaticly if you have ADB enabled on your android device.
-pause
-
+set keypath=%rootpath%\Workspace%alias%.keystore
+cd %rootpath%
+start signer.cmd /WAIT

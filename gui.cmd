@@ -1,2 +1,3 @@
-call guiScript.cmd C:\Users\tsjpl\Documents\Denver_Custom_Watchface_Patcher\Workspace\clockrendering0.png C:\Users\tsjpl\Documents\Denver_Custom_Watchface_Patcher\Workspace\clockbackground0.png C:\Users\tsjpl\Documents\Denver_Custom_Watchface_Patcher\Workspace\clockhour0.png C:\Users\tsjpl\Documents\Denver_Custom_Watchface_Patcher\Workspace\clockminute0.png C:\Users\tsjpl\Documents\Denver_Custom_Watchface_Patcher\Workspace\clocksecond0.png
+set rootdir=%cd%
+call guiScript.cmd %rootdir%\Workspace\clockrendering0.png %rootdir%\Workspace\clockbackground0.png %rootdir%\Workspace\clockhour0.png %rootdir%\Workspace\clockminute0.png %rootdir%\Workspace\clocksecond0.png
 pause
