@@ -32,3 +32,4 @@ C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfac
 C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.Step4.resources
 C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.Step5.resources
 C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.Debug.resources
+C:\Users\tsjpl\source\repos\DenverCustomWatchfacePatcherGUI\DenverCustomWatchfacePatcherGUI\obj\Debug\DenverCustomWatchfacePatcherGUI.splashscreen.resources

@@ -126,6 +126,12 @@
     <Compile Include="Progress.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="splashscreen.Designer.vb">
+      <DependentUpon>splashscreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="splashscreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="Start.Designer.vb">
       <DependentUpon>Start.vb</DependentUpon>
     </Compile>
@@ -172,6 +178,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Progress.resx">
       <DependentUpon>Progress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="splashscreen.resx">
+      <DependentUpon>splashscreen.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Start.resx">
       <DependentUpon>Start.vb</DependentUpon>

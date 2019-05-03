@@ -1,10 +1,44 @@
 ﻿Public Class Progress
+
     Dim donechecker As Boolean = False
     Private psi As ProcessStartInfo
     Private cmd As Process
 
     Private Delegate Sub InvokeWithString(ByVal text As String)
+    Dim ImgSelected As Boolean = False
     Dim appPath As String = Application.StartupPath()
+    Dim ResizedImage As Image
+    Private IsFormBeingDragged As Boolean = False
+    Private MouseDownX As Integer
+    Private MouseDownY As Integer
+
+    Private Sub Form1_MouseDown(ByVal sender As Object, ByVal e As MouseEventArgs) Handles MyBase.MouseDown
+
+        If e.Button = MouseButtons.Left Then
+            IsFormBeingDragged = True
+            MouseDownX = e.X
+            MouseDownY = e.Y
+        End If
+    End Sub
+
+    Private Sub Form1_MouseUp(ByVal sender As Object, ByVal e As MouseEventArgs) Handles MyBase.MouseUp
+
+        If e.Button = MouseButtons.Left Then
+            IsFormBeingDragged = False
+        End If
+    End Sub
+
+    Private Sub Form1_MouseMove(ByVal sender As Object, ByVal e As MouseEventArgs) Handles MyBase.MouseMove
+
+        If IsFormBeingDragged Then
+            Dim temp As Point = New Point()
+
+            temp.X = Me.Location.X + (e.X - MouseDownX)
+            temp.Y = Me.Location.Y + (e.Y - MouseDownY)
+            Me.Location = temp
+            temp = Nothing
+        End If
+    End Sub
     Function GetNewestSubFolder(ByRef strPath As String) As String
         'Jim Cone - Portland, Oregon USA
         Dim oFSO As Object
@@ -38,32 +72,32 @@
             TextBox2.Text = "Debugging mode activated. Please be carefull, you may break something." & Environment.NewLine & "Just a heads up, This almost functions as a admin shell. You have been warned."
         Else
             Try
-            cmd.Kill()
-        Catch ex As Exception
-        End Try
-        TextBox2.Clear()
-        If TextBox1.Text.Contains(" ") Then
-            psi = New ProcessStartInfo(TextBox1.Text.Split(" ")(0), TextBox1.Text.Split(" ")(1))
-        Else
-            psi = New ProcessStartInfo(TextBox1.Text$)
-        End If
-        Dim systemencoding As System.Text.Encoding
-        System.Text.Encoding.GetEncoding(Globalization.CultureInfo.CurrentUICulture.TextInfo.OEMCodePage)
-        With psi
-            .UseShellExecute = False
-            .RedirectStandardError = True
-            .RedirectStandardOutput = True
-            .RedirectStandardInput = True
-            .CreateNoWindow = True
-            .StandardOutputEncoding = systemencoding
-            .StandardErrorEncoding = systemencoding
-        End With
-        cmd = New Process With {.StartInfo = psi, .EnableRaisingEvents = True}
-        AddHandler cmd.ErrorDataReceived, AddressOf Async_Data_Received
-        AddHandler cmd.OutputDataReceived, AddressOf Async_Data_Received
-        cmd.Start()
-        cmd.BeginOutputReadLine()
-        cmd.BeginErrorReadLine()
+                cmd.Kill()
+            Catch ex As Exception
+            End Try
+            TextBox2.Clear()
+            If TextBox1.Text.Contains(" ") Then
+                psi = New ProcessStartInfo(TextBox1.Text.Split(" ")(0), TextBox1.Text.Split(" ")(1))
+            Else
+                psi = New ProcessStartInfo(TextBox1.Text$)
+            End If
+            Dim systemencoding As System.Text.Encoding
+            System.Text.Encoding.GetEncoding(Globalization.CultureInfo.CurrentUICulture.TextInfo.OEMCodePage)
+            With psi
+                .UseShellExecute = False
+                .RedirectStandardError = True
+                .RedirectStandardOutput = True
+                .RedirectStandardInput = True
+                .CreateNoWindow = True
+                .StandardOutputEncoding = systemencoding
+                .StandardErrorEncoding = systemencoding
+            End With
+            cmd = New Process With {.StartInfo = psi, .EnableRaisingEvents = True}
+            AddHandler cmd.ErrorDataReceived, AddressOf Async_Data_Received
+            AddHandler cmd.OutputDataReceived, AddressOf Async_Data_Received
+            cmd.Start()
+            cmd.BeginOutputReadLine()
+            cmd.BeginErrorReadLine()
             Label1.Text = "Please Wait..."
             Timer1.Start()
 
@@ -146,4 +180,8 @@
         End If
     End Sub
 
+    Private Sub PictureBox1_Click(sender As Object, e As EventArgs) Handles PictureBox1.Click
+        Start.Close()
+        Me.Close()
+    End Sub
 End Class

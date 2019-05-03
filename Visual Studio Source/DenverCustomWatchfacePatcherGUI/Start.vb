@@ -17,5 +17,8 @@
         If IO.File.Exists(appPath & "\java.path") Then
             IO.File.Delete(appPath & "\java.path")
         End If
+        Me.WindowState = FormWindowState.Minimized
+        splashscreen.Show()
+
     End Sub
 End Class
