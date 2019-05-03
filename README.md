@@ -22,6 +22,4 @@ Denver.com - Pictures of watch - Used in the preview screen
 <br>
 WGET Team - WGET For Windows - Used to download fresh APK
 <br>
-"Freepik" - Splash screen image
-<br>
 Linus Weiss - Automatic Jar Signer - Used for zipalign and signing process
